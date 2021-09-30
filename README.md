@@ -9,7 +9,7 @@ Therefore, the fake news would propagate very fast and people will hard tell whi
 3.Use <b>NLTK</b> module to paraphrase and expand tweets amount. And Check POS for each word and check synonyms exist or not. If there has synonyms words, then randomly choose words to build new sentences.  
 ![nlp_SOP](https://user-images.githubusercontent.com/67025904/134559722-bfb39a8a-8569-482d-b72d-daa0e069233f.jpg)
 
-4.Build new Logistic Regression and SVM models to check accuracy rate. Logistic Regression enhances from 81.2% to <b>83.5%</b> and SVM raises from 80.7% to <b>86%</b>.
+4.Build new Logistic Regression and SVM models to check accuracy rate. Logistic Regression enhances from 81.2% to <b>83.5%</b> and SVM raises from 80.7% to <b>86%</b>.  
 ![image](https://user-images.githubusercontent.com/67025904/134559318-0ddce8b7-dbbc-41e8-a365-65c5c1557adc.png)
 
 # Result
