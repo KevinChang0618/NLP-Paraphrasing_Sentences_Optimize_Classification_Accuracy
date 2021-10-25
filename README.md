@@ -8,7 +8,7 @@ Therefore, the fake news would propagate very fast and people will hard tell whi
 2.Build <b>Logistic Regression</b> and <b>SVM</b> to classify tweets and get preliminary accuracy rate.  
 3.Use <b>NLTK</b> module to paraphrase and expand tweets amount. And Check POS for each word and check synonyms exist or not. If there has synonyms words, then randomly choose words to build new sentences.  
 4.Build new Logistic Regression and SVM models to check accuracy rate. Logistic Regression enhances from 81.2% to <b>83.9%</b> and SVM raises from 82% to <b>91%</b>.  
-5.I buid a pipeline in SVM machince learning to automate words vectorization and SVM classify to estimate classification accuracy.
+5.I buid a <b>pipeline</b> in SVM machince learning to automate words vectorization and SVM classify to estimate classification accuracy.
 
 # Result
 Our model's accuracy rate enhance a little after we paraphrase our tweets. However, both models' accuracy rate doesn't enhance big. The reason may because of paraphrasing sentences
