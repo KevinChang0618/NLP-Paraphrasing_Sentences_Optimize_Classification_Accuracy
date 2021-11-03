@@ -18,7 +18,7 @@ Therefore, the fake news would propagate very fast and people will hard tell whi
 2. Initial padding of 0s, until vector's size is MAX_SEQUENCE_LENGTH.  
 3. split the training data into a training set and a validation set.    
 4. Embedding each tweet to vector using 'glove.6B.100d.txt' (source: https://nlp.stanford.edu/projects/glove/).  
-5. Run 3 times <b>convilution and subsampling</b> (Feature Maps). (Filter size = 5; maxpooling size = 5)  
+5. Run 3 times <b>convilution and subsampling</b>. (Filter size = 5; maxpooling size = 5)  
 6. Training accuracy is 92.35%; Testing accuracy is 73.21%.  
 7. After expanding dataset, training accuracy is 96.74%; testing accuracy is 78.3%.  
 
