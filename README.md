@@ -4,21 +4,21 @@
 Therefore, the fake news would propagate very fast and people will hard tell which is reliable news which is not.
 
 # Methods
-- <b>Machine Learning Models</b>  
+- <b>Machine Learning Models</b> (Logistic Regression, SVM)  
 
 1. Vectorize each tweet using <b>Tfidf</b>.  
 2. Build <b>Logistic Regression</b> and <b>SVM</b> to classify tweets and get preliminary accuracy rate.  
-3. Use <b>NLTK</b> module to paraphrase and expand tweets amount. And Check POS for each word and check synonyms exist or not. If there has synonyms words, then randomly choose words to build new sentences.  
+3. Use <b>NLTK</b> module to paraphrase and expand tweets amount 5 times. And use <b>POS</b> for each word's part of speech and check <b>synonyms</b> exist or not. If there has synonyms words, then randomly choose words to build new sentences.  
 4. Build new Logistic Regression and SVM models to check accuracy rate. Logistic Regression enhances from 81.2% to <b>83.9%</b> and SVM raises from 82% to <b>91%</b>.  
-5. I buid a <b>pipeline</b> in SVM machince learning to automate words vectorization and SVM classify to estimate classification accuracy.  
+5. Build a <b>pipeline</b> in SVM model to automate words vectorization and classify reliable/unreliable tweets to estimate classification accuracy.  
 
 - <b>CNN Model</b>
 
-1. Vetorize each tweet using 'glove.6B.100d.txt' (source: https://nlp.stanford.edu/projects/glove/).  
-2. Vectorize these tweets samples into a 2D integer tensor using Keras Tokenizer.  
-3. Initial padding of 0s, until vector is of size MAX_SEQUENCE_LENGTH.  
-4. split the training data into a training set and a validation set.  
-5. Run 3 times convilution and subsampling (feaure extractin). Filter size = 5; maxpooling size = 5.  
+1. Use Keras Tokenizer to vetorize these tweets samples into a 2D integer tensor using Keras Tokenizer.  
+2. Initial padding of 0s, until vector's size is MAX_SEQUENCE_LENGTH.  
+3. split the training data into a training set and a validation set.    
+4. Embedding each tweet to vector using 'glove.6B.100d.txt' (source: https://nlp.stanford.edu/projects/glove/).  
+5. Run 3 times <b>convilution and subsampling</b> (feaure extractin). (Filter size = 5; maxpooling size = 5)  
 6. Training accuracy is 92.35%; Testing accuracy is 73.21%.  
 7. After expanding dataset, training accuracy is 96.74%; testing accuracy is 78.3%.  
 
