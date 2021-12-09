@@ -8,7 +8,7 @@ Therefore, the fake news would propagate very fast and people will hard tell whi
 
 1. Remove useless words from tweets. (Ex: url, digitis, punctuations, @__)  
 2. Clean stopwords. (Ex: pronoun)  
-3. Use lemmatization to returns an actual word of the language.  
+3. Use <b>lemmatization</b> to returns an actual word of the language.  
 
 - <b>Machine Learning Models</b> (Logistic Regression, SVM)  
 
