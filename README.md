@@ -4,6 +4,12 @@
 Therefore, the fake news would propagate very fast and people will hard tell which is reliable news which is not.
 
 # Methods
+- <b>Data Preprocessing</b>
+
+1. Remove useless words from tweets. (Ex: url, digitis, punctuations, @__)  
+2. Clean stopwords. (Ex: pronoun)  
+3. Use lemmatization to returns an actual word of the language.  
+
 - <b>Machine Learning Models</b> (Logistic Regression, SVM)  
 
 1. Vectorize each tweet using <b>Tfidf</b>.  
